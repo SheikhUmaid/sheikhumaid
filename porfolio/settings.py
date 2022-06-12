@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-pvjp-o=j@(v$0#0s1m5kmxpc_kxp&fx-cs$#v7f0smtqs67^df
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.15','127.0.0.1','192.168.1.7']
+ALLOWED_HOSTS = ['sheikhumaid.herokuapp.com','192.168.1.15','127.0.0.1','192.168.1.7']
 
 
 # Application definition
