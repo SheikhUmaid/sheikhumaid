@@ -1,0 +1,94 @@
+{% extends 'base.html' %} {% load static %} {% block head %}
+<link rel="stylesheet" href="{% static 'styles/project.css' %}">
+<link rel="stylesheet" href="{% static 'styles/project_responsive.css' %}">
+
+{% endblock head %} {% block body %}
+<div class="content">
+    <div class="project-phase-1 flex">
+        &nbsp;
+        <div class="p-phase-1-left project-page-title theme-text">
+            <div class="txt-theme">Project:</div>
+            {{project.Name}}
+        </div>
+        <div class="p-phase-1-right">
+            <img src="{% static 'images/project.jpg' %}" alt="" class="project-title-image">
+        </div>
+    </div>
+
+
+
+    <div class="phase-2-title txt-theme">
+        Project Details
+    </div>
+    <div class=" sizer flex">
+        <div class="details">
+            <div class="text-details">
+                <div class="detail-section">
+                    <b class="txt-theme">My Role:</b>
+                    <div class="answer">{{project.Role}}</div>
+                </div>
+                <div class="detail-section">
+                    <b class="txt-theme">YEAR:</b>
+                    <div class="answer">{{project.Year}}</div>
+                </div>
+                <div class="detail-section">
+                    <b class="txt-theme">Client:</b>
+                    <div class="answer">{{project.Client}}</div>
+                </div>
+                <div class="detail-section">
+                    <b class="txt-theme">Content Type</b>
+                    <div class="answer">{{project.ContentType}}</div>
+                </div>
+                <div class="detail-section">
+                    <b class="txt-theme">Live URL:</b>
+                    <a href="{{project.URL}}">
+                        <div class="answer">{{project.URL}}</div>
+                    </a>
+                </div>
+                <div class="detail-section">
+                    <b class="txt-theme">Github URL:</b>
+                    <a href="{{project.GithubLink}}">
+                        <div class="answer">{{project.GithubLink}}</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="{{project.Image.url}}" alt="" class="project-image">
+        </div>
+    </div>
+    <div class="summary txt-theme sizer">
+        Summary
+        <div class="summary-text">{{project.Description}}</div>
+    </div>
+
+    <div class="tech-used txt-theme sizer">
+        Technologies Used
+        <div class="phase-5 phase">
+            <div class="phase-5-row-1 phase-5-rows flex">
+                {% for tech in techs %}
+                <div class="skill-item flex j">
+                    <div class="line list-bullet bg-theme">
+                        <div class="square list-bullet"></div>
+                    </div>
+                    <p class="flex j-center a-center skill-item-text theme-text">{{tech}}</p>
+                </div>
+                {% if forloop.counter|divisibleby:3 and forloop.counter > 0%} 
+                {%if forloop.last%}
+            </div>
+                 {% endif %}
+            </div>
+            <div class="phase-5-row-1 phase-5-rows flex">
+            
+            {%endif%}
+        {% comment %} </div> {% endcomment %}
+                {% endfor %}
+            </div>
+        
+
+
+
+
+</div>
+{% endblock body %}
+

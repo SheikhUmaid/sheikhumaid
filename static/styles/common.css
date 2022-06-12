@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+}
+.j-center{
+    justify-content: center;
+}
+.a-center{
+    align-items: center;
+}
+.j-end{
+    justify-content: space-evenly;
+}
+body{
+    /* border: 2px solid black; */
+    background-color: white;
+}
+.txt-justify{
+    text-align: justify;
+}

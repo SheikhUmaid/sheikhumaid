@@ -1,0 +1,305 @@
+{% extends 'base.html' %} {% load static %} {% block head %}
+<link rel="stylesheet" href="{% static 'styles/index.css'%}" />
+<link rel="stylesheet" href="{% static 'styles/index_responsive.css'%}" />
+
+{% endblock head %} {% block body %}
+<div class="info phase-1 flex phase">
+  <div class="info-left">
+    <div class="flex">
+      <div>
+        <p class="im theme-text">
+          I'm <span class="name txt-theme txt-trans-dec">Sheikh Umaid</span>
+        </p>
+        <div class="tag-line theme-text">
+          From The
+          <span class="tag-bold txt-theme txt-trans-dec">Heaven</span> On
+          <span class="txt-trans-dec tag-bold txt-theme">Earth</span>
+        </div>
+      </div>
+    </div>
+    <p class="desc txt-justify theme-text">
+      I build immersive and beautiful web applications through carefully crafted
+      code and user-friendly design. I like building things to tackle issues. I
+      specialise in creating the beautiful, usable, proficient web applications
+      utilizing best accessible most recent technologies.
+    </p>
+    <div class="buttons flex">
+      <a href="/contact"
+        ><button class="contact-me txt-theme border-theme">
+          CONTACT ME
+        </button></a
+      >
+      <a href="internet.png" download
+        ><button class="contact-me txt-theme border-theme download">
+          Download CV
+        </button></a
+      >
+    </div>
+  </div>
+  <div class="info-right flex a-center">
+    <div class="info-right flex a-center">
+      <div class="img-frame j-center flex bg-theme">
+        <div class="whiten flex j-center">
+          <img
+            src=" {% static 'images/potrait.jpg' %}"
+            alt=""
+            class="potrait"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="info phase-2 phase">
+  <div class="phase-title theme-text">
+    What I
+    <span class="tag-bold pt-bold txt-theme txt-trans-dec">Provide</span>:
+  </div>
+  <div class="wip-row-1 wip-row flex">
+    <div class="wip-item-1 flex wip-item">
+      <img
+        src=" {% static 'images/mobile-phone.png' %}"
+        alt=""
+        class="wip-item-1-img wip-img"
+      />
+      <div class="wip-1-title">
+        <span class="txt-theme wip-title">Android Development</span>
+        <div class="wip-1-desc wip-desc theme-text">
+          Providing quality service of mobile application development for IOS,
+          Android and HTML platforms.
+        </div>
+      </div>
+    </div>
+    <div class="wip-item-1 flex wip-item">
+      <img
+        src=" {% static 'images/server.png' %} "
+        alt=""
+        class="wip-item-2-img wip-img"
+      />
+      <div class="wip-1-title">
+        <span class="txt-theme wip-title">Back-End Development</span>
+        <div class="wip-1-desc wip-desc theme-text">
+          Providing quality service of mobile application development for IOS,
+          Android and HTML platforms.
+        </div>
+      </div>
+    </div>
+    <div class="wip-item-1 flex wip-item">
+      <img
+        src=" {% static 'images/internet.png' %} "
+        alt=""
+        class="wip-item-3-img wip-img"
+      />
+      <div class="wip-1-title">
+        <span class="txt-theme wip-title">Website Development</span>
+        <div class="wip-1-desc wip-desc theme-text">
+          Providing quality service of mobile application development for IOS,
+          Android and HTML platforms.
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wip-row-2 wip-row flex">
+    <div class="wip-item-1 flex wip-item">
+      <img
+        src=" {% static 'images/digital.png' %} "
+        alt=""
+        class="wip-item-1-img wip-img"
+      />
+      <div class="wip-1-title">
+        <span class="txt-theme wip-title">Software Development</span>
+        <div class="wip-1-desc wip-desc theme-text">
+          Providing quality service of mobile application development for IOS,
+          Android and HTML platforms.
+        </div>
+      </div>
+    </div>
+    <div class="wip-item-1 flex wip-item">
+      <img
+        src=" {% static 'images/icons/coming-soon.png' %} "
+        alt=""
+        class="wip-item-1-img wip-img"
+      />
+      <div class="wip-1-title">
+        <span class="txt-theme wip-title">Coming Soon</span>
+        <div class="wip-1-desc wip-desc theme-text">
+          Providing quality service of mobile application development for IOS,
+          Android and HTML platforms.
+        </div>
+      </div>
+    </div>
+    <div class="wip-item-1 flex wip-item">
+      <img
+        src=" {% static 'images/icons/coming-soon.png' %} "
+        alt=""
+        class="wip-item-1-img wip-img"
+      />
+      <div class="wip-1-title">
+        <span class="txt-theme wip-title">Coming Soon</span>
+        <div class="wip-1-desc wip-desc theme-text">
+          Providing quality service of mobile application development for IOS,
+          Android and HTML platforms.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="info phase-3 phase">
+  <div class="phase-title theme-text">
+    <span class="pt-bold tag-bold txt-theme txt-trans-dec">WHO</span> I Am:
+  </div>
+  <div class="phase-three-content flex">
+    <div class="wai-desc">
+      I am a Full Stack Developer from Srinagar. I build immersive and beautiful
+      web applications & softwares through carefully crafted code and
+      user-centric design.
+      <div class="wai-desc-2">
+        I specialise in creating the beautiful, usable, proficient web
+        applications utilizing best accessible most recent technologies. I like
+        building things to tackle issues. Having several years of experience in
+        wide range of design disciplines focusing on user interaction and user
+        experience
+      </div>
+      <div class="wai-phone">
+        Let's Talk
+        <a class="txt-theme phone-number" href="tel:7006786167"
+          >+91 7006 786 167</a
+        >
+      </div>
+    </div>
+    <img src="{% static 'images/phase3.png' %}" alt="" class="phase-3-image" />
+  </div>
+</div>
+<div class="info phase-4 phase">
+  <div class="phase-4-content flex">
+    <div class="phase-4-left">
+      <div class="logo">
+        <img src="{% static 'images/logo.png' %}" alt="" class="phase-4-logo" />
+        <div class="phase-4-name">Sheikh Umaid</div>
+      </div>
+    </div>
+    <div class="phase-4-right developer">
+      <span class="txt-theme">DEV</span>ELOPER <br />
+      From <br />
+      <span class="txt-theme">HEAV</span>EN
+    </div>
+  </div>
+</div>
+<div class="phase-5 phase">
+  <div class="phase-title theme-text">
+    <span class="pt-bold tag-bold txt-theme txt-trans-dec">SKILLS</span> I Have:
+  </div>
+  <div class="phase-5-row-1 phase-5-rows flex">
+    <div class="skill-item flex j">
+      <div class="line list-bullet bg-theme">
+        <div class="square list-bullet"></div>
+      </div>
+      <p class="flex j-center a-center skill-item-text theme-text">HTML:5</p>
+    </div>
+    <div class="skill-item flex j">
+      <div class="line list-bullet">
+        <div class="square list-bullet"></div>
+      </div>
+      <p class="flex j-center a-center skill-item-text theme-text">CSS3</p>
+    </div>
+    <div class="skill-item flex j">
+      <div class="line list-bullet">
+        <div class="square list-bullet"></div>
+      </div>
+      <p class="flex j-center a-center skill-item-text theme-text">
+        JAVASCRIPT
+      </p>
+    </div>
+  </div>
+  <div class="phase-5-row-1 phase-5-rows flex">
+    <div class="skill-item flex j">
+      <div class="line list-bullet">
+        <div class="square list-bullet"></div>
+      </div>
+      <p class="flex j-center a-center skill-item-text theme-text">PYTHON</p>
+    </div>
+    <div class="skill-item flex j">
+      <div class="line list-bullet">
+        <div class="square list-bullet"></div>
+      </div>
+      <p class="flex j-center a-center skill-item-text theme-text">C</p>
+    </div>
+    <div class="skill-item flex j">
+      <div class="line list-bullet">
+        <div class="square list-bullet"></div>
+      </div>
+      <p class="flex j-center a-center skill-item-text theme-text">JAVA</p>
+    </div>
+  </div>
+
+  <div class="phase-5-row-1 phase-5-rows flex">
+    <div class="skill-item flex j">
+      <div class="line list-bullet">
+        <div class="square list-bullet"></div>
+      </div>
+      <p class="flex j-center a-center skill-item-text theme-text">KOTLIN</p>
+    </div>
+    <div class="skill-item flex j">
+      <div class="line list-bullet">
+        <div class="square list-bullet"></div>
+      </div>
+      <p class="flex j-center a-center skill-item-text theme-text">ANDROID</p>
+    </div>
+    <div class="skill-item flex j">
+      <div class="line list-bullet">
+        <div class="square list-bullet"></div>
+      </div>
+      <p class="flex j-center a-center skill-item-text theme-text">JAVA</p>
+    </div>
+  </div>
+</div>
+<div class="phase-5 c-phase-3 flex phase">
+  <div class="form-div">
+    <form action="" method="POST">
+        {% csrf_token %}
+      <div class="form-title theme-text">Let's Make A Bond</div>
+      <div class="form">
+        <div class="f-name-div f-div j-center">
+          <input type="text" 
+            placeholder="Name" 
+            class="f-name f-input"
+            name="form-name"
+            id="form-name" 
+            /><br />
+        </div>
+        <div class="f-email-div f-div j-center">
+          <input
+            type="email"
+            placeholder="Email"
+            class="f-email f-input"
+            name="form-email"
+            id="form-email"
+          /><br />
+        </div>
+        <div class="f-phone-div f-div j-center">
+          <input
+            type="text"
+            placeholder="Phone"
+            class="f-phone f-input"
+            name="form-phone"
+            id="form-phone"
+          /><br />
+        </div>
+        <div class="f-message-div f-div j-center">
+          <textarea
+            type="text"
+            placeholder="Message"
+            class="f-message"
+            name="form-message"
+            id="form-message"
+          ></textarea
+          ><br />
+        </div>
+        <div class="f-submit-div f-div j-center">
+          <button type="submit" class="submit-btn">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock body %}

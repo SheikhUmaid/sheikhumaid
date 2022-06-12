@@ -1,0 +1,82 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheikh Umaid - {% block title %}{% endblock title %}</title>
+    <link rel="stylesheet" href="{% static 'styles/common.css'%}">
+    <link rel="stylesheet" href="{% static 'styles/base.css'%}">
+    <link rel="stylesheet" href="{% static 'styles/base_responsive.css'%}">
+    {% block head %}{% endblock head %}
+</head>
+<body>
+    <header class="flex j-center a-center head">
+        <nav class="nav-bar flex a-center ">
+
+            <a href="{% url 'index' %}"><img src="{% static 'images/logo.png' %}" alt="" srcset="" class="logo"></a>
+            <ul class="nav-items flex">
+                <li class="nav-item"><a class="txt-theme" href="{% url 'index' %}">Home</a></li>
+                <li class="nav-item"><a class="txt-theme" href="{% url 'projects'%}"> Download CV</a></li>
+                <li class="nav-item"><a class="txt-theme" href="{% url 'contact' %}">Contact Me</a></li>
+                <li class="nav-item"><a class="txt-theme" href="{% url 'projects' %}">Projects</a></li>
+                <div class="color-tool-div flex j-end"><input type="color" name="themer" id="themer" class="themer"
+                        value="#A02CED">
+                    <img class="theme-changer" src="{% static 'images/icons/moon.png' %}" alt="">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    {% block body %}
+    {% endblock body %}
+    <footer class="footer-tag">
+        <div class="footer flex">
+            <div class="column-1 footer-logo-column">
+                <a href=" {% url 'index'%} ">
+                    <img src=" {% static 'images/logo.png' %} " alt="" class="footer-logo-image">
+                </a>
+                <p class="footer-name theme-text">Sheikh Umaid</p>
+            </div>
+            <div class="column-2 footer-column theme-text">
+                CONTACT ME
+                <div class="footer-line footer-lines"></div>
+                <p>Safa Kadal, Srinagar</p>
+                <p>(+91) 7006 786 167</p>
+                <p>Sheikhumaid@pm.me</p>
+                <p>Sheikh.umaid03@gmail.com</p>
+            </div>
+            <div class="column-3 footer-column theme-text">
+                QUICK LINKS
+                <div class="footer-line footer-lines"></div>
+                <a href="{% url 'index' %}">
+                    <p class="theme-text">Home</p>
+                </a>
+                <a href="{% url 'contact' %}">
+                    <p class="theme-text">Contact Me</p>
+                </a>
+                <a href="{% url 'projects' %}">
+                    <p class="theme-text">Projects</p>
+                </a>
+                <a href="#">
+                    <p class="theme-text">Download CV</p>
+                </a>
+                <a href="{% url 'index' %}">
+                    <p class="theme-text">Home</p>
+                </a>
+            </div>
+        </div>
+        <div class="footer-divider footer-lines"></div>
+        <div class="footer-socials flex j-center">
+            <a href="https://github.com/SheikhUmaid"><img src=" {% static 'images/icons/github.png' %} " alt="" class="footer-social-icon"></a>
+            <a href="https://www.linkedin.com/in/sheikh-umaid-795a101b6/"><img src=" {% static 'images/icons/linkedin.png' %} " alt="" class="footer-social-icon"></a>
+            <a href="https://www.instagram.com/sheikhsahabb"><img src=" {% static 'images/icons/instagram.png' %} " alt="" class="footer-social-icon"></a>
+            <a href="https://wa.me/+917006786167"><img src=" {% static 'images/icons/whatsapp.png' %} " alt="" class="footer-social-icon"></a>
+            <a href="https://www.facebook.com/umaid.sheikh.737"><img src=" {% static 'images/icons/facebook.png' %} " alt="" class="footer-social-icon"></a>
+        </div>
+        <div class="copyright theme-text">&#169 COPYRIGHT 2022. ALL RIGHTS RESERVED</div>
+    </footer>
+</body>
+<script src="{% static 'scripts/index.js' %}"></script>
+</html>

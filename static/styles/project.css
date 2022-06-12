@@ -1,0 +1,114 @@
+.project-phase-1{
+    width: 90vw;
+    background-color: aliceblue;
+    margin-left: 5vw;
+}
+.project-page-title{    
+    width: 60vw;
+    font-size: 5em; 
+    font-family: 'Bebas Neue', cursive;
+}
+
+.project-title-image{
+    height: 60vh;
+    /* margin-left: 22vw; */
+}
+
+.phase-2-title{
+    text-align: center;
+    font-size: 2.5em;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 10px;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+.details{
+    width: 90vw;
+    margin-left: 5vw;
+    
+}
+.text-details{
+    margin-left: 2vw;
+}
+b{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+}
+.answer{
+    font-weight: 900;
+    font-size: 1.1em;
+    margin-left: 1vw;
+    color: rgb(118, 124, 129);
+}
+.detail-section{
+    margin: 2vh 0vw;
+}
+.project-image{
+    height: 50vh;
+    width: 60vw;
+    margin-left: -3vw;
+}
+.sizer{
+    width: 90vw;
+    margin-left: 5vw;
+}
+.summary{
+    text-align: center;
+    font-size: 2.5em;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 10px;
+    font-family: 'Bebas Neue', cursive;
+}
+.summary-text{
+    font-weight: 900;
+    font-size: .6em;
+    margin-left: 1vw;
+    color: rgb(118, 124, 129);
+}
+.tech-used{
+    text-align: center;
+    font-size: 2.5em;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 10px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+
+/* skill item start*/
+.phase-5{
+    font-size: .3em;
+}
+.line{
+    display: flex;
+    height: 2px;
+    width: 10vw;
+    background-color: black;
+    justify-content: end;
+    align-items: center;
+}
+.square{
+    height: 3vh;
+    width: 3vh;
+    background-color: black;
+    transform: rotate(45deg);
+    
+}
+.phase-5-rows{
+    margin-left: 4vw;
+
+}
+.skill-item-text{
+    font-size: 2em;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.skill-item{
+    margin: 8vh 6.5vw;   
+}
+
+/* skill item end*/

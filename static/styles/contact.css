@@ -1,0 +1,113 @@
+.image{
+    height: 45vh;
+    width: 45vh;
+    border-radius: 100%;
+    margin: 5vh;
+    border: 2px solid black
+}
+img{
+    height: 45vh;
+    z-index: -1;
+}
+/* .c-phase-1{
+    background-color: white;
+} */
+.name{
+    font-size: 5em;
+    font-family: 'Bebas Neue', cursive;
+}
+.s-icon{
+    height: 15vh;
+}
+.c-phase-2{
+    margin-top: 20px;
+}
+.form-title{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 6em;
+    margin-left: 10vw;
+}
+.f-input{
+    all: unset;
+    height: 7vh;
+    width: 40vw;
+    margin-top: 1vh;
+    padding-left: 5px;
+    border-bottom: 1px solid black;
+    font-size: larger;
+}
+.f-input:focus{
+    all: unset;
+    height: 7vh;
+    width: 40vw;
+    /* margin-top: 4vh; */
+    padding-left: 5px;
+    border-bottom: 1px solid black;
+    font-size: larger;
+    background-color: #e8f0fe67;
+}
+.f-message{
+    all: unset;
+    height: 25vh;
+    width: 40vw;
+    margin-top: 1vh;
+    padding-left: 5px;
+    border-bottom: 1px solid black;
+    font-size: larger;
+    text-align: justify;
+    /* height: 10vh; */
+    vertical-align: text-top;
+    color: white;
+
+}
+.f-message:focus{
+    all: unset;
+    height: 25vh;
+    width: 40vw;
+    margin-top: 1vh;
+    padding-left: 5px;
+    border-bottom: 1px solid yellow;
+    font-size: larger;
+    text-align: justify;
+    background-color: #e8f0fe67;
+    /* height: 10vh; */
+    vertical-align: text-top;
+}
+.submit-btn{
+    height: 10vh;
+    font-family: 'Bebas Neue', cursive;
+    width: 40vw;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    background-color: #e8f0fe67;
+    cursor: pointer;
+    color: white;
+    font-size: xx-large;
+}
+.f-div{
+    margin-left: 10vw;
+}
+.c-phase-3{
+    background-image:url(../images/Contact.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100vw 085vh;
+}
+input{
+    color: white;
+
+}
+
+.image-pic{
+    border-radius: 100%;
+}
+
+.c-phase-3{
+    width: 90vw;
+    margin-left: 5vw;
+    margin-top: 1vh;
+}
+
+.txt-center{
+    text-align: center;
+}

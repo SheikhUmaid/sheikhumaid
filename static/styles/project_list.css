@@ -1,0 +1,66 @@
+.project-phase-1{
+    width: 90vw;
+    background-color: aliceblue;
+    margin-left: 5vw;
+    /* overflow: auto; */
+}
+.project-page-title{    
+    width: 60vw;
+    /* text-align: center; */
+    margin-left: 15vw;
+    margin-top: 20vh;
+    font-size: 5em; 
+    font-family: 'Bebas Neue', cursive;
+    /* vertical-align: middle; */
+}
+.p-title{
+    /* padding-top: ; */
+    /* text-align: center; */
+    display: inline-block;
+}
+.project-title-image{
+    /* margin-left: 22vw; */
+    /* margin-right: 100vw; */
+    margin-left: -22vw;
+}
+.p-phase-1-right{
+    width: 40vw;
+}
+.project{
+    /* background-color: aquamarine; */
+    /* height: 55vh; */
+    border-radius: 5px;
+    width: 40vw;
+    border: 2px solid black;
+    margin: 3vh 0px;
+}
+.project-image{
+    height: 25vh;
+    width: 30vw;
+    margin-left: 5vw;
+}
+.project-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    margin-left: 5vw;
+}
+.project-desc{
+    margin-left: 5vw;
+    line-height: 22px;
+    width: 30vw;
+    text-align: justify;
+}
+.project-btn{
+    font-family: 'Bebas Neue', cursive;
+    cursor: pointer;
+    height: 5vh;
+    width: 30vw;
+    margin: 0vh 5vw;
+    background-color: white;
+    font-size: xx-large;
+    border-radius: 5px;
+    /* margin: ; */
+}
+.project-content{
+    margin: 2vh 0vw;
+}

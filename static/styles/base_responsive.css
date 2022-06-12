@@ -1,0 +1,123 @@
+@media (max-width:1232px) and (orientation:landscape){
+    @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+    
+    
+    .head{
+        width: 100vw;
+        margin: 20px 0;
+        position: sticky;
+        top: 3px;
+    }
+    
+    .nav-items{
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 50px;
+    }
+    .nav-item{
+        margin: 20px 50px;
+    
+    }
+    .nav-bar {
+        background-color: white;
+        border: 1px solid black;
+        height: 15vh;
+        width: 90vw;
+
+    }
+    .logo{
+        height: 100px;
+    }
+    nav a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Abril Fatface', cursive;
+        font-size: larger;
+    }
+    nav a:hover{
+        transition: all .5s ease;
+        color: springgreen;
+    }
+    
+    input[type="color"] {
+        -webkit-appearance: none;
+        border: none;
+        width: 32px;
+        height: 32px;
+        border-radius: 100%;
+    }
+    input[type="color"]::-webkit-color-swatch-wrapper {
+        padding: 0;
+        border-radius: 100%;
+    }
+    input[type="color"]::-webkit-color-swatch {
+        border: 2px solid white;
+        border-radius: 100%;
+    }
+    .theme-changer{
+        height: 5vh;
+        margin-left: 3vw;
+        cursor: pointer;
+    }
+    
+    
+    
+    /* Footer Start */
+    
+    .footer-tag{
+        background-color: aliceblue;    
+        width: 90vw;
+        margin-left: 5vw;
+    }
+    .footer-column{
+        margin: 10vh 1vw;
+    }
+    .footer-logo-image{
+        margin-top: -10vh;
+        margin-left: -10vw;
+    }
+    .footer-line{
+        height: 40px;
+        width: 2px;
+        background-color: rgb(43, 40, 40);
+        margin: 1vw;
+    }
+    .column-3{
+        margin: 10vh 10vw;
+        word-break: keep-all;
+    }
+    .column-2{
+        margin: 10vh -10vw;
+    }
+    .footer-divider{
+        width: 80vw;
+        margin-left: 5vw;
+        height: 2px;
+        background-color: rgb(48, 50, 51);
+    }
+    .footer-social-icon{
+        filter: grayscale(100%);
+        height: 3vh;
+        margin: 3vh;
+    }
+    .footer-social-icon:hover{
+        filter: grayscale(0%);
+        height: 3vh;
+        cursor: pointer;
+        margin: 3vh;
+    }
+    .copyright{
+        text-align: center;
+        background-color: rgba(240, 248, 255, 0);
+    }
+    .footer-name{
+        margin-left: 8vw;
+        margin-top: -12vh;
+        font-size: 2em;
+    }
+    /* Footer End */
+    
+}

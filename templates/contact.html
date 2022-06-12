@@ -1,0 +1,88 @@
+{% extends 'base.html' %} {% load static %} {% block head %}
+<link rel="stylesheet" href="{% static 'styles/contact.css'%}" />
+<link rel="stylesheet" href="{% static 'styles/contact_responsive.css'%}" />
+
+{% endblock head %} {% block body %}
+<!-- <div class="content"> -->
+  <div class="c-phase-1 flex j-center">
+    <div>
+      <div class="image flex j-center a-center border-theme">
+        <img src=" {% static 'images/passport.png' %} " alt="" class="image-pic" />
+      </div>
+      <div class="name txt-center txt-theme">Sheikh Umaid</div>
+    </div>
+  </div>
+  <div class="c-phase-2">
+    <div class="social-links flex j-end">
+      <div class="linkedin s-ico">
+        <a href="https://www.linkedin.com/in/sheikh-umaid-795a101b6/"><img class="s-icon" src=" {% static 'images/icons/linkedin.png' %} " alt="" /></a>
+      </div>
+      <div class="github s-ico">
+        <a href="https://github.com/SheikhUmaid"><img class="s-icon" src=" {% static 'images/icons/github.png' %} " alt="" /></a>
+      </div>
+      <div class="facebook s-ico">
+        <a href="https://www.facebook.com/umaid.sheikh.737"><img class="s-icon" src=" {% static 'images/icons/facebook.png' %} " alt="" /></a>
+      </div>
+      <div class="instagram s-ico">
+        <a href="https://www.instagram.com/sheikhsahabb"><img class="s-icon" src=" {% static 'images/icons/instagram.png' %} " alt="" /></a>
+      </div>
+      <div class="whatsapp s-ico">
+        <a href="https://wa.me/+917006786167"><img class="s-icon" src=" {% static 'images/icons/whatsapp.png' %} " alt="" /></a>
+      </div>
+    </div>
+  </div>
+  <div class="c-phase-3 flex">
+    <div class="form-div">
+      <form action="" method="POST">
+        {% csrf_token %}
+        <div class="form-title">Let's Make A Bond</div>
+        <div class="form">
+          <div class="f-name-div f-div j-center">
+            <input
+              type="text"
+              placeholder="Name"
+              class="f-name f-input"
+              name="form-name"
+              id="form-name"
+            /><br />
+          </div>
+          <div class="f-email-div f-div j-center">
+            <input
+              type="email"
+              placeholder="Email"
+              class="f-email f-input"
+              name="form-email"
+              id="form-email"
+            /><br />
+          </div>
+          <div class="f-phone-div f-div j-center">
+            <input
+              type="text"
+              placeholder="Phone"
+              class="f-phone f-input"
+              name="form-phone"
+              id="form-phone"
+            /><br />
+          </div>
+          <div class="f-message-div f-div j-center">
+            <textarea
+              type="text"
+              placeholder="Message"
+              class="f-message"
+              id="form-message"
+              name="form-message"
+            ></textarea
+            ><br />
+          </div>
+          <div class="f-submit-div f-div j-center">
+            <button type="submit" class="submit-btn">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+<!-- </div> -->
+{% endblock body %}
+
+
+

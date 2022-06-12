@@ -1,0 +1,246 @@
+@media (max-width:1232px) and (orientation:landscape){
+  
+
+    .im {
+        margin-top: 7vh;
+        margin-left: 5vw;
+        font-weight: bolder;
+        font-size: 1em;
+    }
+
+    .name {
+        font-size: 3.5em;
+        margin: 10px;
+        font-family: 'Bebas Neue', cursive;
+        letter-spacing: 2px;
+    }
+
+    .tag-line {
+        margin: 10px 5vw;
+        word-spacing: 10px;
+        font-size: .9em;
+        line-height: 10px;
+        line-break: strict;
+        font-weight: bolder;
+
+    }
+
+    .tag-bold {
+        font-size: 1.5rem;
+        /* margin: 0px 5px; */
+        letter-spacing: 4px;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .potrait {
+        height: 80vh;
+        padding: 30px 0;
+    }
+
+    .desc {
+        font-size: 1em;
+        margin-left: 12vw;
+        margin-top: 5vh;
+        line-height: 30px;
+        /* line-break: anywhere; */
+        font-family: 'Raleway', sans-serif;
+
+        word-break: keep-all;
+
+    }
+
+    .img-frame {
+        background-color: aqua;
+        width: 35vw;
+        margin-left: 20px;
+        height: 90vh;
+    }
+
+    .whiten {
+        background-color: aliceblue;
+        width: 32vw;
+        height: 100%;
+    }
+
+    .pt-bold {
+        font-size: 3rem;
+    }
+
+    .wip-desc {
+        text-align: justify;
+        line-height: 4vh;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .phase-3-image {
+        width: 40vw;
+        height: auto;
+        margin-left: 5vw;
+    }
+
+    .wai-desc {
+        margin-top: 6vh;
+        margin-left: 6vw;
+        font-family: 'Raleway', sans-serif;
+        width: 35vw;
+        text-align: justify;
+        line-height: 4.5vh;
+        font-size: large;
+
+    }
+
+    .contact-me {
+        height: 10vh;
+        width: 13vw;
+        margin: 5vh 5vw;
+        background-color: white;
+        cursor: pointer;
+        font-weight: bolder;
+        font-family: 'Bebas Neue', cursive;
+        font-size: larger;
+        letter-spacing: 2px;
+        border: 3px solid black;
+    }
+
+    .download {
+        margin-left: -20px;
+    }
+
+    .developer {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 15vh;
+        /* margin-left: vw; */
+        text-align: center;
+    }
+
+    .phase-4-logo {
+        margin-left: -20vh;
+    }
+
+
+    .c-phase-3 {
+
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
+    .form-title {
+        font-family: 'Bebas Neue', cursive;
+        text-align: center;
+        font-size: 6em;
+        margin-left: 10vw;
+    }
+
+    .f-input {
+        all: unset;
+        height: 7vh;
+        width: 40vw;
+        margin-top: 1vh;
+        padding-left: 5px;
+        border-bottom: 1px solid black;
+        font-size: larger;
+        color: white;
+    }
+
+    .f-input:focus {
+        all: unset;
+        height: 7vh;
+        width: 40vw;
+        /* margin-top: 4vh; */
+        padding-left: 5px;
+        border-bottom: 1px solid black;
+        font-size: larger;
+        background-color: #e8f0fe67;
+        color: white;
+    }
+
+    .f-message {
+        all: unset;
+        height: 25vh;
+        width: 40vw;
+        margin-top: 1vh;
+        padding-left: 5px;
+        border-bottom: 1px solid black;
+        font-size: larger;
+        text-align: justify;
+        /* height: 10vh; */
+        vertical-align: text-top;
+        color: white;
+
+    }
+
+    .f-message:focus {
+        all: unset;
+        height: 25vh;
+        width: 40vw;
+        margin-top: 1vh;
+        padding-left: 5px;
+        border-bottom: 1px solid yellow;
+        font-size: larger;
+        text-align: justify;
+        background-color: #e8f0fe67;
+        /* height: 10vh; */
+        vertical-align: text-top;
+    }
+
+    .submit-btn {
+        height: 10vh;
+        font-family: 'Bebas Neue', cursive;
+        width: 40vw;
+        letter-spacing: 5px;
+        margin-top: 20px;
+        background-color: #e8f0fe67;
+        cursor: pointer;
+        color: white;
+        font-size: xx-large;
+    }
+
+    .f-div {
+        margin-left: 10vw;
+    }
+
+    .c-phase-3 {
+        background-image: url(../images/Contact.jpeg);
+        background-repeat: no-repeat;
+        background-size: 100vw 100vh;
+    }
+
+    input {
+        color: white;
+    }
+
+    /* skill item start*/
+    .line {
+        display: flex;
+        height: 2px;
+        width: 10vw;
+        background-color: black;
+        justify-content: end;
+        align-items: center;
+    }
+
+    .square {
+        height: 3vh;
+        width: 3vh;
+        background-color: black;
+        transform: rotate(45deg);
+
+    }
+
+    .phase-6-rows {
+        margin-left: .5vw;
+
+    }
+
+    .skill-item-text {
+        font-size: 2em;
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    .skill-item {
+        margin: 8vh 6.5vw;
+    }
+
+    /* skill item end*/
+
+}

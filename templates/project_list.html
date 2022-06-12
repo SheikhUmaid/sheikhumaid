@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block head %}
+<link rel="stylesheet" href="{% static 'styles/common.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/project_list.css' %}">
+    <link rel="stylesheet" href="{% static 'styles/project_list_responsive.css' %}">
+    {% comment %} <link rel="stylesheet" href="{% static 'styles/project.css' %}"> {% endcomment %}
+    {% comment %} <link rel="stylesheet" href="project_list_responsive.css"> {% endcomment %}
+{% endblock head %}
+{% block body %}
+
+
+
+<div class="content">
+    <div class="content">
+        <div class="project-phase-1 flex">
+            &nbsp;
+            <div class="p-phase-1-left project-page-title theme-text">
+                <div class="txt-theme p-title">Projects</div>
+
+            </div>
+            <div class="p-phase-1-right">
+                <img src="{% static 'images/Project.png' %}" alt="" class="project-title-image">
+            </div>
+        </div>
+    
+    </div>
+    <div class="row flex j-end">
+        {% for project in projects %}
+        <div class="project border-theme">
+            <div class="project-content">
+                <img src="{{project.Image.url}}" alt="" class="project-image">
+                <div class="project-title txt-theme">{{project.Name}}</div>
+                <div class="project-desc theme-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione incidunt nulla consectetur non corrupti dolorem itaque? Sapiente asperiores voluptatibus repellendus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci, corporis!</div>
+                <div>
+                    <a href="{% url 'project' project.pk %}">
+                        <button class="project-btn border-theme txt-theme">View Project</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        {% if forloop.counter|divisibleby:2 and forloop.counter > 0%}
+            </div>
+            <div class="row flex j-end">
+        {% endif %}
+        {% endfor %}
+            </div>
+  
+{% endblock body %}
