@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath portfolio.wsgi
+web: gunicorn --pythonpath portfolio.wsgi:application
