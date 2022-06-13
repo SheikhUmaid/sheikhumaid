@@ -19,5 +19,5 @@ from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('SheikhUmaid.urls')),
-]
+]+ static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 handler404 = 'SheikhUmaid.views.Page404Handler'
