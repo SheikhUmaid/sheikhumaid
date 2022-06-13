@@ -8,4 +8,4 @@ urlpatterns = [
     path('projects',views.projects,name='projects'),
     path('project/<pk>',views.project,name='project')
 ]
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
