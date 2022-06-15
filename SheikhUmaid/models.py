@@ -14,7 +14,7 @@ class Project(models.Model):
     GithubLink = models.CharField(max_length=100)
     Description = models.TextField(max_length=500)
     TechUsed = models.CharField(default='', max_length=200)
-    Image = models.ImageField()
+    Image = models.CharField(default='', max_length = 200)
 
 
     def __str__(self):
