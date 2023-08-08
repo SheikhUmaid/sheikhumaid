@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://your-image-url.com/animated-gif.gif](https://mir-s3-cdn-cf.behance.net/project_modules/disp/c302f8106533937.5f91cf38ecb08.gif" alt="Futuristic Animation" />
+</p>
+
 ## Greetings, Traveler! 🌌 I'm Sheikh Umaid
 
 🚀 Visionary Developer | Code Crafter | Tech Voyager
