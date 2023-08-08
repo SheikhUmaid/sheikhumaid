@@ -1,59 +1,24 @@
-# Hi, I'm [Your Name]
+## Hi there! 👋 I'm Sheikh Umaid
 
-A passionate [Your Profession] specializing in [Your Skills]. Welcome to my GitHub profile!
+Passionate Developer | Problem Solver | Tech Enthusiast
 
-![Header Image](/path/to/header-image.jpg)
+🌐 Welcome to my GitHub! I'm a skilled developer with a focus on web and mobile applications. Proficient in Python (Django, Flask, FastAPI) and cross-platform app development (Flutter), I enjoy crafting efficient solutions. My expertise extends to server management (Apache, Nginx) and web technologies (HTML, CSS, Bootstrap). I thrive on challenges, utilizing strong observation and decision-making skills to multitask effectively. Let's innovate together! 🚀
 
-## About Me
+**Hard Skills:**
+- Python: Django, Flask, FastAPI, Pyautogui
+- Android & iOS Development: Flutter
+- Operating Systems: Linux, Windows
+- Servers: Apache, Nginx
+- Web Development: HTML, CSS, Bootstrap
 
-I'm a [Brief Description about Yourself]. My journey in the world of [Your Field/Industry] began [When and How].
+**Soft Skills:**
+- Observation
+- Decision Making
+- Multi-tasking
 
-- 🌱 I’m currently learning [What You're Learning].
-- 💬 Ask me about [Your Areas of Expertise].
-- 📫 How to reach me: [Your Email or Social Media Links].
+Let's connect:
+- LinkedIn: [Your LinkedIn Profile]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/sheikh-umaid-795a101b6/))
+- Portfolio: [Your Portfolio Website](https://www.sheikhumaid.me)
+- Email: sheikhumaid@pm.me
 
-## Portfolio Highlights
-
-### Project 1: [Project Name]
-
-[Short Project Description]
-
-![Project 1 Screenshot](/path/to/project1-screenshot.jpg)
-
-Repository: [Link to Repository](https://github.com/yourusername/project1)
-
-### Project 2: [Project Name]
-
-[Short Project Description]
-
-![Project 2 Screenshot](/path/to/project2-screenshot.jpg)
-
-Repository: [Link to Repository](https://github.com/yourusername/project2)
-
-## Technical Skills
-
-List your technical skills here:
-
-- [Skill 1]
-- [Skill 2]
-- ...
-
-## Fun Facts
-
-Share some interesting or fun facts about yourself:
-
-- 🎵 I play [Instrument Name].
-- 🎮 I'm a [Gaming Platform] enthusiast.
-- ...
-
-## Let's Connect
-
-Connect with me on social media:
-
-- [LinkedIn](https://www.linkedin.com/in/yourusername)
-- [Twitter](https://twitter.com/yourusername)
-- [Website/Blog](https://www.yourwebsite.com)
-
-Feel free to explore my repositories and reach out for collaborations!
-
-![Footer Image](/path/to/footer-image.jpg)
+Feel free to explore my repositories and get in touch. Together, we can turn ideas into reality! 🌟
