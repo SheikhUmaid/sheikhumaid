@@ -1,6 +1,9 @@
 <p align="center">
   <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/c302f8106533937.5f91cf38ecb08.gif" alt="Futuristic Animation" />
 </p>
+<p align="right">
+  <img src="https://media.tenor.com/8FczG7k6kBsAAAAM/space-galaxy.gif" alt="Futuristic Animation" />
+</p>
 
 ## Greetings, Traveler! 🌌 I'm Sheikh Umaid
 
