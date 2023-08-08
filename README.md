@@ -17,7 +17,7 @@ Passionate Developer | Problem Solver | Tech Enthusiast
 - Multi-tasking
 
 Let's connect:
-- LinkedIn: [Your LinkedIn Profile]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/sheikh-umaid-795a101b6/)
+- LinkedIn: [Your LinkedIn Profile]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/sheikh-umaid-795a101b6/])
 - Portfolio: [Your Portfolio Website](https://www.sheikhumaid.me)
 - Email: sheikhumaid@pm.me
 
