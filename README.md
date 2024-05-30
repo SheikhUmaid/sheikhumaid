@@ -1,31 +1,56 @@
-<p align="center">
-  <img src="https://media.tenor.com/8FczG7k6kBsAAAAM/space-galaxy.gif" alt="Futuristic Animation" />
-  <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/c302f8106533937.5f91cf38ecb08.gif" alt="Futuristic Animation" />
-  <img src="https://media.tenor.com/8FczG7k6kBsAAAAM/space-galaxy.gif" alt="Futuristic Animation" />
-</p>
+- 👋 Hi, I’m @SheikhUmaid
+- 👀 I’m interested in learning things in depth
+- 🌱 I’m currently being better
+- 📫 Blog : https://aalimcodes.blogspot.com
 
 
-## Greetings, Traveler! 🌌 I'm Sheikh Umaid
+## GitHub Stats
 
-🚀 Visionary Developer | Code Crafter | Tech Voyager
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SheikhUmaid&show_icons=true&count_private=true)
 
-🌐 Welcome to my cosmic realm on GitHub! I'm a coding explorer, traversing the realms of web and mobile applications. Mastering Python (Django, Flask, FastAPI) and wielding the interstellar Flutter framework, I sculpt elegant solutions. Navigating servers like Apache and Nginx, and harnessing the energies of HTML, CSS, and Bootstrap, I shape digital constellations. My hypersensitive senses drive me to observe and execute, while decision-making and multi-tasking form my warp drives. Join me on this intergalactic quest for innovation! ⚡️
+## Programming Languages
 
-**Quantum Skills:**
-- Python Sorcery: Django, Flask, FastAPI, Pyautogui
-- Mobile Fusion: Flutter for Android & iOS
-- OS Nebulas: Linux, Windows
-- Server Matrix: Apache, Nginx
-- Web Alchemy: HTML, CSS, Bootstrap
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SheikhUmaid&layout=compact)
 
-**Cosmic Attributes:**
-- Hyper-Observation
-- Quantum Decision Bending
-- Multiverse Multitasking
+## Github Trophies 
 
-🌐 Beam into my coordinates:
-- LinkedIn Galaxy: [Your LinkedIn Profile](https://www.linkedin.com/in/sheikh-umaid-795a101b6/)
-- Portfolio Starship: [Your Portfolio Website](https://www.sheikhumaid.me)
-- Subspace Transmission: sheikhumaid@pm.me
+![Github Trophies](https://github-profile-trophy.vercel.app/?username=SheikhUmaid)
 
-Explore my star systems of code and reach out. Together, we'll forge the future among the stars! 🌌🌟
+## Contact Me
+
+- Email: SheikhUmaid@pm.me
+- Instagram: [@aalim_aslam](https://instagram.com/aalim_aslam)
+
+Feel free to explore my repositories and contributions. Don't forget to give them a ⭐️ if you find them useful!
+
+[![An image of @SheikhUmaid's Holopin badges, which is a link to view their full Holopin profile](https://holopin.me/SheikhUmaid)](https://holopin.io/@SheikhUmaid)
+
+[![](https://visitcount.itsvg.in/api?id=SheikhUmaid&label=Profile%20Views&icon=6&pretty=false)](https://visitcount.itsvg.in)
+
+#
+
+[![](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)]()
+[![](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)]()
+[![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)]()
+[![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)]()
+[![](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)]()
+[![](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)]()
+[![](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)]()
+[![](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)]()
+[![](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)]()
+[![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)]()
+[![](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)]()
+[![](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)]()
+[![](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)]()
+[![](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)]()
+[![](https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)]()
+[![](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white)]()
+[![](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)]()
+[![](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)]()
+[![](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)]()
+[![](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)]()
+[![](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)]()
+[![](https://img.shields.io/badge/json%20web%20tokens-323330?style=for-the-badge&logo=json-web-tokens&logoColor=pink)]()
+[![](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)]()
+[![](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=fff&style=for-the-badge)]()
+[![](https://img.shields.io/badge/sequelize-323330?style=for-the-badge&logo=sequelize&logoColor=blue)]()
