@@ -1,7 +1,5 @@
 - 👋 Hi, I’m @SheikhUmaid
-- 👀 I’m interested in learning things in depth
-- 🌱 I’m currently being better
-- 📫 Blog : https://aalimcodes.blogspot.com
+- 👀 I’m interested in building backends
 
 
 ## GitHub Stats
