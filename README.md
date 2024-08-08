@@ -17,7 +17,7 @@
 ## Contact Me
 
 - Email: SheikhUmaid@pm.me
-- Instagram: [@aalim_aslam](https://instagram.com/aalim_aslam)
+- Instagram: [@sheikh.umaid](https://instagram.com/sheikh.umaid)
 
 Feel free to explore my repositories and contributions. Don't forget to give them a ⭐️ if you find them useful!
 
