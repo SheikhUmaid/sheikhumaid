@@ -33,6 +33,7 @@ Feel free to explore my repositories and contributions. Don't forget to give the
 [![](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)]()
 [![](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)]()
 [![](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)]()
+[![](https://img.shields.io/badge/Django-14354C?style=for-the-badge&logo=python&logoColor=white)]()
 [![](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)]()
 [![](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)]()
 [![](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)]()
