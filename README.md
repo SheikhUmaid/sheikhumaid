@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @SheikhUmaid
 - 👀 I’m interested in building backends
-
+[![](https://visitcount.itsvg.in/api?id=SheikhUmaid&label=Profile%20Views&icon=6&pretty=false)](https://visitcount.itsvg.in)
 
 ## GitHub Stats
 
