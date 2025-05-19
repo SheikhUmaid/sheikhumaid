@@ -2,6 +2,10 @@
 - 👀 I’m interested in building backends
 [![](https://visitcount.itsvg.in/api?id=SheikhUmaid&label=Profile%20Views&icon=6&pretty=false)](https://visitcount.itsvg.in)
 
+## Daily.dev
+
+<a href="https://app.daily.dev/shiekhumaid"><img src="https://api.daily.dev/devcards/v2/fyiTIE3A4SnyBubPVR9QU.png?type=default&r=jwj" width="356" alt="Sheikh Umaid's Dev Card"/></a>
+
 ## GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=SheikhUmaid&show_icons=true&count_private=true)
